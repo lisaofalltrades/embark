@@ -1,0 +1,226 @@
+<!-- Sunnyvale Version -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Embark</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        window.$ = window.jQuery = require('jquery');
+    </script>
+</head>
+<body>
+<!-- begin - navigation -->
+    <div class="nav-btn" id="nav-btn">☰</div>
+    <nav class="nav" id="sideBar" style="display: none">
+        <ul class="nav-contents" id="navContents">
+            <a id="close-link">CLOSE X</a>
+        </ul>
+    </nav>
+<!-- end - navigation -->
+
+<!-- begin - main content-->
+
+    <container id="main" class="main-content">
+        <!-- arrows for navigation -->
+        <div class="arrows">
+            <button class="arrow-btn left">
+                <a>&#8592;</a>
+            </button>
+            <button class="arrow-btn right">
+                <a>&#8594;</a>
+            </button>
+        </div>
+
+        <!-- BEGIN How to use Embark -->
+        <section class="display how-to">
+
+            <div class="directions">
+                <h1 class="title">How to use Embark</h1>
+                <h2>Welcome to Company ABC!</h2>
+
+                <p> Please follow all the steps to set up your account and begin your work here. To navigate from one step to the next you can use:
+                    <ul class="list">
+                        <li> the navigation button <span class="nav-btn">☰</span></li>
+                        <li>the arrows ← → at the top of the page</li>
+                        <li> the arrow keys ◀ ▶ on your keyboard to move from one step to the next</li>
+                    </ul>
+                Each step will include a video with instructions. The button(s) on the bottom of each page help complete the step(s) outlined. This app is best displayed in full screen on your monitor. <br>
+                <span class="blue-font italic"> There will be no audio in this application.</span></p>
+            </div>
+
+            <container class="vid-container">
+                <video controls="controls" width="896" height="504" name="How to use Embark" src="assets/videos/howto.mov"></video>
+            </container>
+        </section>
+        <!-- END How to use Embark-->
+
+        <!-- BEGIN STEP Reset Laptop Password -->
+        <section class="display content">
+            <div class="directions">
+                <h1 class="title">Reset Laptop Password</h1>
+                <p>For Mac Users, please watch this video.</p>
+                <p>For Mac Users, please watch this video.</p>
+            </div>
+        </section>
+        <!-- END STEP Reset Laptop Password -->
+
+        <!-- BEGIN STEP Configure Outlook -->
+        <section class="display content">
+            <div class="directions">
+                <h1 class="title">Configure Outlook</h1>
+                <p>Watch the video below to learn how to configure our Outlook.</p>
+            </div>
+
+            <container class="vid-container">
+                <video controls="controls" width="896" height="504" name="Laptop" src="assets/videos/Outlookconnect.mov"></video>
+            </container>
+
+        </section>
+        <!-- END STEP Configure Outlook -->
+
+        <!-- BEGIN STEP Permissions -->
+        <section class="display content">
+            <div class="directions">
+                <h1 class="title">Permissions</h1>
+                <p>Before you can start working, you'll be special permissions to lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+
+                <p><span class="blue-font">Email dolor sit amet</span>, for permissions to consectetur adipiscing.</p>
+            </div>
+        </section>
+        <!-- END STEP Permission -->
+
+        <!-- BEGIN STEP Email Groups -->
+        <section class="display content">
+            <div class="directions">
+                <h1 class="title">Email Groups</h1>
+                <p>There are certain email groups you need to be a part of. Click on the <span class="blue-font">Email IT</span> button to request access for the following groups:</p>
+
+                <ol>
+                  <li>discount-approvals@emailgroup.com</li>
+                  <li>sales-na@emailgroup.com</li>
+                  <li>quarterend@emailgroup.com</li>
+                </ol>
+
+            </div>
+
+            <div class="btn-container">
+                <button class="action-btn"><a class="url-link" href="*****">Email IT</a></button>
+            </div>
+
+        </section>
+        <!-- END STEP Email Groups -->
+
+        <!-- BEGIN Internal Team/Company Wiki -->
+        <section class="display content">
+            <div class="directions">
+                <h1 class="title">Internal Company Wiki</h1>
+
+                <p>Here at Company ABC, we love to document! Bookmark our company wiki for easy access.</p>
+
+                <img src="*****">
+            </div>
+
+            <div class="btn-container">
+                <button class="action-btn"><a class="url-link" href="*****">Open Comapny Wiki</a></button>
+            </div>
+
+        </section>
+        <!-- END STEP Internal Team/Company Wiki -->
+
+        <!-- BEGIN STEP HipChat -->
+        <section class="display content">
+            <div class="directions">
+                <h1 class="title">Download HipChat</h1>
+                <p>Hipchat is our tool of choice for internal company chat. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+            </div>
+
+            <container class="vid-container">
+                <video controls="controls" width="896" height="504" name="Download HipChat" src="*****"></video>
+            </container>
+
+            <div class="btn-container">
+                <button class="action-btn"><a class="url-link" href="*****">Download HipChat</a></button>
+
+                <button class="help-btn"><a class="url-link" href="*****">Help</a></button>
+            </div>
+        </section>
+        <!-- END STEP HipChat -->
+
+        <!-- BEGIN PgAdmin -->
+        <section class="display content">
+            <div class="directions">
+                <h1 class="title">New Radar Account</h1>
+                <p>PgAdmin is a great user interface to query the database. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                <ol>
+                    <li>Click on <span class="blue-font">Download PgAdin</span>*****</li>
+                </ol>
+            </div>
+
+            <div class="btn-container">
+                <button class="action-btn"><a class="url-link" href="*****">Download PgAdmin</a></button>
+            </div>
+        </section>
+        <!-- END PgAdmin -->
+
+
+        <!-- BEGIN STEP Oracle Developer -->
+        <section class="display content">
+            <div class="directions">
+                <h1 class="title">Oracle Developer</h1>
+                <p>Duis volutpat eros lectus, ac faucibus augue sagittis vel. Donec malesuada iaculis quam, sed convallis erat volutpat eu. Pellentesque vehicula pulvinar cursus. Maecenas eu mi ac ligula dictum eleifend.</p>
+                <ol>
+                    <li>Click on the <span class="blue-font">Download Oracle Developer</span> button below.</li>
+                    <li>Click <span class="blue-font">Get</span> to download the installer package to your computer.</li>
+                    <li>Follow the instructions to configure your computer up to specs.</li>
+                </ol>
+            </div>
+
+            <div class="btn-container">
+                <button class="action-btn"><a class="url-link" href="*****">Download Oracle Developer</a></button>
+            </div>
+        </section>
+        <!-- END STEP Self Service -->
+
+        <!-- BEGIN Final Reminders -->
+        <section class="display content">
+            <div class="directions">
+                <h1 class="title">Final Reminders</h1>
+
+                <ol>
+                    <li>If you have any questions about account setup, <span class="blue-font">please contact your manager or trainer</span>.</li>
+                    <li>Please <span class="blue-font">DO NOT UPGRADE</span> to High Sierra. Some non-native app versions (e.g., Adobe Captivate) are not compatible. Some others may become incompatible if updates are installed automatically.</li>
+                    <li>Please <span class="blue-font">do not update your computer's house directory</span> after account set up. If you do so, you will have to setup your accounts again.</li>
+                    <li>Be sure to change your <span class="blue-font">computer password</span>. Tutorial <a class="url-link" href="*****">here</a>.</li>
+                    <li>Utilize <span class="blue-font">Hot Corners</span>. Tutorial <a class="url-link" href="https://support.apple.com/kb/PH25524?locale=en_US">here</a>.</li>
+                </ol>
+
+            </div>
+
+        </section>
+
+        <!-- END Final Reminders -->
+
+        <!-- BEGIN On-Boarding Complete  -->
+        <section class="display content">
+            <div class="directions">
+                <h1 class="title">On-Boarding Complete!</h1>
+                <div class="image"><img class="maps-logo" src="*****" alt="Company Logo"></div>
+
+                <h2>Welcome to Company ABC!</h2>
+                <p class="center">If you have any questions, please contact:
+                    <a href="*****">Onboarding Trainers</a>.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- END On-Boarding Complete -->
+
+<!-- end - main content -->
+    <script>require('./index.js')</script>
+
+</body>
+</html>
