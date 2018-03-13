@@ -130,7 +130,7 @@ var openLink = function(){
     $(".url-link").click(function(e){
         var path = $(this).attr('href');
         e.preventDefault();
-        if (path.startsWith('http')) {
+        if (path.startsWith('http') || path.startsWith('mailto')) {
             shell.openExternal(decodeURI(path));
         } else {
             shell.openItem(decodeURI(path));
